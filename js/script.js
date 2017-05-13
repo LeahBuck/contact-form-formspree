@@ -6,7 +6,7 @@
   myForm.addEventListener('submit', function(event) {
     // myForm.setAttribute('action', 'https://formspree.io/johndoe919909@gmail.com');
     $.ajax({
-        url: "https://formspree.io/michael.wallert@gmail.com", 
+        url: "https://formspree.io/micheal.wallert@gmail.com", 
         method: "POST",
         data: {message: "hello!"},
         dataType: "json"
